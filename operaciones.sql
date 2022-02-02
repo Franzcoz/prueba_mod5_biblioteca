@@ -13,4 +13,4 @@ select titulo from (select count(prestamos.libros_isbn) as veces, libros.titulo 
 
 -- Mostrar los socios que se han atrasado en devolver su libro y la multa que deben pagar de $100 por día de atraso
 
-select (diferencia * -1)*100 as pesos_multa, nombre, apellido from (select (extract(day from (fecha_devuelto - fecha_prestamo)) - dias_prestamo) as diferencia, socios_rut from prestamos) as dif join socios on dif.socios_rut = socios.rut where diferencia < 0;
+select (diferencia)*100 as pesos_multa, nombre, apellido from (select (extract(day from (fecha_devuelto - fecha_prestamo)) - dias_prestamo) as diferencia, socios_rut from prestamos) as dif join socios on dif.socios_rut = socios.rut where diferencia > 0;
