@@ -4,14 +4,14 @@
 
 ## Estructura de archivos
 
-/.
-|
-|-biblioteca.sql --> Script principal con creación de BD, estructura de tablas e importación de datos
-|
-|-operaciones.sql --> Script secundario con consultas solicitadas
-|
-|-*.csv --> Archivos .csv con datos de tabla respectiva en BD
-|
-|-conceptual.jpg --> Diagrama conceptual realizado en draw.io
-|
-|-logico.png --> Diagrama lógico obtenido desde DBeaver
+/.  
+|  
+|-biblioteca.sql --> Script principal con creación de BD, estructura de tablas e importación de datos  
+|  
+|-operaciones.sql --> Script secundario con consultas solicitadas  
+|  
+|-*.csv --> Archivos .csv con datos de tabla respectiva en BD  
+|  
+|-conceptual.jpg --> Diagrama conceptual realizado en draw.io  
+|  
+|-logico.png --> Diagrama lógico obtenido desde DBeaver  
