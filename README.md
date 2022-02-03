@@ -14,4 +14,4 @@
 |  
 |-conceptual.jpg --> Diagrama conceptual realizado en draw.io  
 |  
-|-logico.png --> Diagrama lógico obtenido desde DBeaver  
+|_logico.png --> Diagrama lógico obtenido desde DBeaver  
